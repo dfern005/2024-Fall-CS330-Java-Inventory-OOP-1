@@ -112,7 +112,7 @@ public class Consumable extends Item {
     @Override
     public String toString()
     {
-        return String.format("Nme: %s\nEft: %s\nUse: %d\nQty: 1\n", 
+        return String.format("  Nme: %s\n  Eft: %s\n  Use: %d\n  Qty: 1\n", 
         super.name, this.effect, this.uses);
     }
 }

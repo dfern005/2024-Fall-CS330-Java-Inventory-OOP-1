@@ -230,7 +230,7 @@ public class Armour extends Item {
     @Override
     public String toString()
     {
-        return String.format("Nme: %s\nDur: %d\nDef: %d\nMtl: %s\nMdr: %s (Lvl %d)\nEmt: %s\n", 
+        return String.format("  Nme: %s\n  Dur: %d\n  Def: %d\n  Mtl: %s\n  Mdr: %s (Lvl %d)\n  Emt: %s\n", 
         super.name, this.durability, this.defense, this.material, 
         this.modifier, this.modiferLevel, this.element);
     }
